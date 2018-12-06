@@ -1,0 +1,195 @@
+.healthtipsimages{
+	display: flex;
+}
+.topbar{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	font-weight: initial;
+	padding: 20px;
+}
+.top img{
+	margin-right: 5%;
+}
+.to{
+	margin-left: 5%;
+}
+nav{
+	background-color: #000;
+	width: 100%;
+	justify-content: space-around;
+	height: 50px;
+	position: sticky;
+	display: block;
+	top: 0;
+	background: rgba(0,0,0,.8);
+	border-top: 1px solid rgba(255,255,255,.2);
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	z-index: 100;
+}
+nav img{
+	float: left;
+	margin: 5px 0 5px 50px;
+}
+.class{
+	background-color: black;
+}
+nav ul{
+	display: flex;
+	margin: 2px;
+	padding: 0 100px;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	display: block;
+	color: #fff;
+	padding: 0 20px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 50px;
+	text-transform: capitalize; 
+	text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a.active{
+	background-color: #fff;
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 30px;	
+	align-content: space-between;
+	padding: 10px;
+}
+.dropbtn{
+	       background-color: #17a2b8;
+	       color: white;
+	       padding: 20px;
+	       font-size: 16px;
+	       border-radius: 12px
+
+}
+.dropdown {
+	        position: relative;
+	        display: block;
+	        padding: 20px;
+	    }
+.dropdown-content{
+	display: flex;
+	position: absolute;
+	background-color: grey;
+	min-width: 20px;
+	box-shadow: 04px 8px 16px 033px rgba(0,0,0,0.2);
+	z-index: 1;
+
+	}
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: flex;
+	font-weight: normal;
+
+}
+.dropdown-content a:hover{
+	background-color: black;
+}
+.dropdown:hover
+.dropdown-content{
+	display: flex;
+}
+.dropdown:hover
+.dropbtn {
+	background-color: #17a2b8;
+}
+
+body{	
+	margin: 0;
+	font-family: 'Raleway-medium copy ', serif;
+}
+.topbar{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold; 
+}
+.indexcontent{
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+	margin: 3px;
+}
+.index{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 220px;
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+.index-icon{
+	flex: 2;
+	background-color: aliceblue;
+}
+.index-text{
+	flex: 7;
+	background-color: #17a2b8;
+}
+.index-header{
+	font-size: 22px;
+	padding: 4px;
+	color: #fff;
+	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+}
+.index-note{
+	padding: 5px;
+	font-size: 18px;
+	padding-left: 25px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.container1{
+	margin-left: 5%;
+	width: 90%;
+	margin-right: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.navigate{
+	height: 20px;
+	background-color: papayawhip;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+.menu a:hover{
+	background-color: #17a2b8;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none;
+}
+a.active{
+	background-color: #17a2b8;
+	color: #000;
+	border-radius: 3px;
+}
+.healthytipstextheader{
+	align-self: center;
+	color: #17a2b8;
+	font-style: normal;
+	font-size: 16px;
+	display: flex;
+}
